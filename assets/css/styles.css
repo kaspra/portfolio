@@ -773,11 +773,13 @@ body[data-theme="dark"] .text-muted {
 
 .st{
   margin-top: 5%;
+  color: #2d844e;
 }
 
 .down{
   margin-bottom: 5%;
 }
+
 
 @media screen and (max-width: 990px) {
   .test{
@@ -794,13 +796,33 @@ body[data-theme="dark"] .text-muted {
   }
   .fl{
     flex-direction: column;
+    margin: 0 0 16px 0;
   }
   .t4{
     width: 100%;
+    margin: 0px 0 20px 0;
+  }
+  .top{
+    margin: 15px 0 20px 0;
+  }
+  .project{
+    margin: 0 0 50px 0;
   }
   .cen{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    margin: 25px 0 25px 0;
+  }
+  .skill-set{
+    margin-bottom: 20px;
+  }
+  .st{
+    margin: 25px 0 0 0;
+  }
+  .click{
+    font-size: 26px;
+  }
+  .click-font{
+    margin-top: 8px;
   }
 }
